@@ -34,7 +34,7 @@ def f_ratio (g1,g2):
     s1 = np.sum(g1)
     s2 = np.sum(g2)
     
-    SS_b = np.square(s1)/n1 + np.square(s2/n2) - np.square(s1+s2)/(n1+n2)
+    SS_b = np.square(s1)/n1 + np.square(s2)/n2 - np.square(s1+s2)/(n1+n2)
     
     SS_total = (np.sum(np.square(g1))+np.sum(np.square(g2)))-np.square(s1+s2)/(n1+n2)
     
